@@ -25,6 +25,9 @@ public class Homework5 {
 	 * substring method in the String class
 	 */
 	public String substring(int index, int length) {
+		/* Almost. But what happens if index2 is greater
+		 * than the length of the String?
+		 */
 		int index2 = length + index;
 		String substring = string.substring(index, index2);
 		return substring;
